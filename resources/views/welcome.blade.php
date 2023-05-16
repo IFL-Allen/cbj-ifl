@@ -7,8 +7,11 @@
 @include('includes.search')
 <!-- Search End --> 
 <!-- Top Employers start -->
-@include('includes.top_employers')
+{{-- @include('includes.top_employers') --}}
 <!-- Top Employers ends --> 
+<!-- Top Freelancers start -->
+@include('includes.top_freelancers')
+<!-- Top Freelancers ends --> 
 <!-- Popular Searches start -->
 {{-- @include('includes.popular_searches') --}}
 <!-- Popular Searches ends --> 

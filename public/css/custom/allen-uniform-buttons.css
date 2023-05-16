@@ -1,0 +1,33 @@
+.left-side a {
+    color: #000!important;
+}
+
+.allen-custom-div {
+    padding: 0 1.5rem;
+}
+
+#allen-btn-sign-in {
+    display: inline-block;
+    width: 100px;
+    background: #005ea6;
+    border: none;
+    color: #fff!important;
+    font-weight: 600;
+}
+
+#allen-btn-register {
+    display: inline-block;
+    width: 100px;
+    background: #212529;
+    border: none;
+    color: #fff!important;
+    font-weight: 600;
+}
+
+#allen-btn-sign-in:hover {
+    background: #007BD9;
+}
+
+#allen-btn-register:hover {
+    background: #383F45;
+}
