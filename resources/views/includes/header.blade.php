@@ -45,14 +45,14 @@
                                 <a href="{{ route('contact.us') }}" class="nav-link">{{__('Contact us')}}</a> 
                             </li>
 
-                            @if(!Auth::user() && !Auth::guard('company')->user())
+                            <!-- @if(!Auth::user() && !Auth::guard('company')->user())
                             <li class="nav-item">
                                 <a href="{{route('login')}}" class="nav-link">{{__('Sign in')}}</a> 
                             </li>
                             <li class="nav-item">
                                 <a href="{{route('register')}}" class="nav-link register">{{__('Register')}}</a> 
                             </li>                            
-                            @endif
+                            @endif -->
                             
                         </ul>
                     </div>
