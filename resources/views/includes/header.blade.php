@@ -59,6 +59,14 @@
                 </nav>
             </div>
             <div class="right-side">
+	   
+	    @if(!Auth::user() && !Auth::guard('company')->user())    
+                <div class="allen-custom-div">
+                    <a class="btn btn-primary" href="{{route('login')}}" role="button" id="allen-btn-sign-in">Sign in</a>
+                    <a class="btn btn-primary" href="{{route('register')}}" role="button" id="allen-btn-register">Register</a>
+                </div>
+            @endif
+	    
             @if(Auth::check())
                 <div class="notifications">
                     <ul>
